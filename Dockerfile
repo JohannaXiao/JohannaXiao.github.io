@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 # Set the working directory inside the container
 WORKDIR /usr/src/app
 
-# Copy Gemfile and Gemfile.lock into the container (necessary for `bundle install`)
+# Copy Gemfile into the container (necessary for `bundle install`)
 COPY Gemfile ./
 
 # Install bundler and dependencies

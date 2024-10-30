@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Xuewen / Big big wolrd"
+title                    : "Big big world"
 title_separator          : "-"
 name                     : &name "Xuewen XIAO"
 description              : &description "personal description"
@@ -304,6 +304,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-remote-theme
+#remote_theme: "mmistakes/minimal-mistakes"
+#minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -312,6 +315,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
 
 
 # Archives
